@@ -17,10 +17,9 @@ To fetch patent data, we SQL query *Google Patents* dataset. The query is includ
 ### Regression Analysis
 Having created, we proceed to estimate specifications put forward in the thesis. To do so, we write [LM.R](LM.R) in *R*.
 
-
 ### Visuals
 
-Each visualization presented in the thesis has a dedicated script, either in *R* or as a *Python* *Jupyter*. The script names give a clue on which visual obtains upon the script's execution.
+Each visualization presented in the thesis has a dedicated script, either in *R* or as a *Python* *Jupyter*. The script names give a clue on which visual obtains upon a script's execution.
 
 ## Further Work
 Absent the end-user story for the repo, refactoring, testing, and deployment pipeline are not implemented.
