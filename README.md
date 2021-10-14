@@ -20,7 +20,7 @@ Having created [innovation_cfc_tax.csv](innovation_cfc_tax.csv), we proceed to e
 
 ### Visuals
 
-Each visualization presented in the thesis has a dedicated script, either in *R* or as a *Jupyter Notebook*. The script names give a clue on which visual obtains upon a script's execution. For example, [tax-visual.ipynb](tax-visual.ipynb) plots the corporate tax rate through observation years and the EU-28 countries. For each visual, a data set is generated using the data preparation *Jupyter Notebook*.
+Each visualization presented in the thesis has a dedicated script, either in *R* or as a *Jupyter Notebook*. The script names give a clue on which visual obtains upon a script's execution. For example, [tax-visual.ipynb](tax-visual.ipynb) plots the corporate tax rate through observation years and the EU-28 countries. For each visual, a data set is generated using the data preparation *Jupyter Notebook*. These interim data are not included in the repo.
 
 ## Further Work
 Absent the end-user story for the repo, refactoring, testing, and deployment pipeline are not implemented.
