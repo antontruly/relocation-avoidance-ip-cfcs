@@ -16,7 +16,7 @@ We wrangle, fetch, and merge the data in a *Jupyter Notebook*, fully written in 
 To fetch patent data, we SQL query [*Google Patents*](https://cloud.google.com/blog/topics/public-datasets/google-patents-public-datasets-connecting-public-paid-and-private-patent-data) dataset. The query is included in the *Jupyter* notebook. The credentials are provided as the brave-aviary *json* but are a mock example. To execute the code, therefore, one should refer to the [*BigQuery* tutorial](https://cloud.google.com/bigquery/docs/authentication/service-account-file) to obtain credentials as a *json*.
 
 ### Regression Analysis
-Having created [innovation_cfc_tax.csv](innovation_cfc_tax.csv), we proceed to estimate specifications put forward in the thesis. To do so, we wrap and estimate our models in [LM.R](LM.R).
+Having created [innovation_cfc_tax.csv](innovation_cfc_tax.csv), we proceed to estimate specifications put forward in the thesis. To do so, we wrap and estimate our models in [LM.R](LM.R). Before estimation, we balance the panel under each specification.
 
 ### Visuals
 
