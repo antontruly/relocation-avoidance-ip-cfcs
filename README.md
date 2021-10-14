@@ -15,7 +15,7 @@ To fetch patent data, we SQL query *Google Patents* dataset. The query is includ
 
 
 ### Regression Analysis
-Having created, we proceed to estimate specifications put forward in the thesis. To do so, we program this script in *R*.
+Having created, we proceed to estimate specifications put forward in the thesis. To do so, we write [LM.R](LM.R) in *R*.
 
 
 ### Visuals
