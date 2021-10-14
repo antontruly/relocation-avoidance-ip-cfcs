@@ -6,20 +6,21 @@ This repo allows one to prepare the data for regression analysis of country-leve
 
 ### Data Preparation
 
-#### Python Jupyter
-We wrangle, fetch, and merge the data in a *Jupyter Notebook*, fully written in *Python*. In doing so, we apply a pipeline reasoning, so that the ultimate dataset () merges the outputs of previous operations on the data sources involved.
+#### Multiple Sources
+We involve multuiple data sources. This repo includes the sources downloaded from the source web pages, such as the OECD CFC rule data, . Besides, we manually add the WIPO GII per year stored in . 
 
+#### Python Jupyter
+We wrangle, fetch, and merge the data in a *Jupyter Notebook*, fully written in *Python*. In doing so, we apply a pipeline reasoning, so that the ultimate dataset [innovation_cfc_tax.csv](innovation_cfc_tax.csv) is a merge of the outputs of previous operations on the data sources involved.
 
 #### Google BigQuery
 To fetch patent data, we SQL query *Google Patents* dataset. The query is included in the *Jupyter* notebook. The credentials are provided as the brave-aviary *json* but are a mock example. To execute the code, therefore, one should refer to the *BigQuery* tutorial to obtain credentials as a *json*.
-
 
 ### Regression Analysis
 Having created [innovation_cfc_tax.csv](innovation_cfc_tax.csv), we proceed to estimate specifications put forward in the thesis. To do so, we write [LM.R](LM.R) in *R*.
 
 ### Visuals
 
-Each visualization presented in the thesis has a dedicated script, either in *R* or as a *Python* *Jupyter*. The script names give a clue on which visual obtains upon a script's execution.
+Each visualization presented in the thesis has a dedicated script, either in *R* or as a *Python* *Jupyter*. The script names give a clue on which visual obtains upon a script's execution. For example, 
 
 ## Further Work
 Absent the end-user story for the repo, refactoring, testing, and deployment pipeline are not implemented.
